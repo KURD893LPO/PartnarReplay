@@ -6,7 +6,7 @@ client.on('message', message => {
 
 if (!message.guild) return; 
 
-if (message.content === '+wara') { 
+if (message.content === '+3wara') { 
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
@@ -85,7 +85,7 @@ if (message.content.startsWith("https://discord.gg/")) {
     
   message.author.send(` مـن دام نـا بـەس تـوش دایـنـەێ  https://discord.gg/EXCuvNd`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("755636700482633791").send(
+  client.channels.get("1184244634420007025").send(
 `> ئـەم گـوڵـە ڕیکـلامەکـەێ کـرد: <@${message.author.id}>
 ${message.content}`)
 }
