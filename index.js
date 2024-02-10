@@ -10,7 +10,7 @@ if (message.content === '+wara') {
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join() 
+message.member.voiceChannel.join(1184448383126085636) 
 
 .then(connection => { 
 
